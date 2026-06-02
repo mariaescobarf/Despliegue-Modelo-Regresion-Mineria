@@ -19,8 +19,7 @@ import pandas as pd  # manipulacion dataframes
 import numpy as np   # matrices y vectores
 import matplotlib.pyplot as plt  # gráfica
 
-#intalar streamlit
-!pip install streamlit
+import streamlit as st
 
 #Cargamos el modelo
 import pickle

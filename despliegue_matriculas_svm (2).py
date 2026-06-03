@@ -28,7 +28,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Cargar modelo
-filename = 'modelo-reg.pkl'
+filename = 'modelo-final.pkl'
 modelo, min_max_scaler, variables = pickle.load(open(filename, 'rb'))
 
 # Interfaz
